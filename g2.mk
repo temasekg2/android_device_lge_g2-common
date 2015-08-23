@@ -106,7 +106,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# off-mode charging
 PRODUCT_PACKAGES += \
+    charger \
     charger_res_images
 
 # Live Wallpapers
